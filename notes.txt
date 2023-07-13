@@ -96,3 +96,6 @@ b>: void return type
 
 c>: parameters
 ~ functions parameters are typed with a similar syntax as variables declarations, if no parameter type is defined TS will default to using any, unless additional type information is available.
+
+d>: optional parameter
+~ by default TS will assume all parameters are required but they can be explicitly marked as optional

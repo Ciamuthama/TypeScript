@@ -139,3 +139,9 @@ function printAny():void {
 function multiply(a:number, b: number) {
     return a*b
 }
+
+// optional parameters
+function add(a:number,b:number,c:number) {
+    return a+b+(c||0)
+}
+console.log(2,5) //7
