@@ -80,3 +80,6 @@ TYPESCRIPT UNION TYPES
 
 a>: union|(OR)
 ~ using the | we are saying our parameter is a string or number
+
+b>: union type error
+~ you need to know what type is when union types are being used to avoid errors
