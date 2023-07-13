@@ -128,3 +128,9 @@ function getTime(): number {
     // the `:number` here specifies that this function returns a number
     return new Date().getTime();
 }
+
+//void return type
+function printAny():void {
+    console.log('hello') // hello
+    console.log(3) // 3
+}
