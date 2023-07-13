@@ -30,10 +30,10 @@ b>: Readonly tuple
 ~  a good practice is to make your tuple Readonly, tuples only have strongly defined types for the initial values.
 
 c>: Named tuples
-~ allows us to provide context for our values at each index e.g (const graph: [x:number, y: number]= [55.2, 41.3]),  they provide more context for what our index values represent.
+~ allows us to provide context for our values at each index e.g (```const graph: [x:number, y: number]= [55.2, 41.3]```),  they provide more context for what our index values represent.
 
 d>: Destructuring tuples
-~ since tuples are arrays we can destructure them e.g(const graph: [number,number]=[55.1,41.5]; const [x,y]= graph),
+~ since tuples are arrays we can destructure them e.g(```const graph: [number,number]=[55.1,41.5]; const [x,y]= graph```),
 
 TYPESCRIPT OBJECT TYPES
 a>: Type Inference
@@ -72,4 +72,9 @@ b>: interfaces
 ~ interfaces are similar to type aliases, expect they only apply to object types.
 
 c>:extending interfaces
-~ it means you are creating a new interface with the same properties as the original, plus something new 
+~ it means you are creating a new interface with the same properties as the original, plus something new
+
+
+TYPESCRIPT UNION TYPES
+~ union types are used when a value can be more than a single type,such as when a property would be string or number.
+
