@@ -83,3 +83,8 @@ a>: union|(OR)
 
 b>: union type error
 ~ you need to know what type is when union types are being used to avoid errors
+
+
+TYPESCRIPT FUNCTIONS
+~ TS has specific syntax for typing function parameters and return values
+
