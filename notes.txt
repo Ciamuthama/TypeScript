@@ -1,0 +1,72 @@
+typescript special types
+
+typescript has special types that may not refer to any special type of data,
+
+a> :any
+~any is a type that disables type checking and effectively allows all types to be used.
+
+b> :unknown
+~is a similar, but safer alternative to any, TS will prevent unknown types from being used, it used when you don't know the type of data being typed, to add a type later we can cast using "as"keyword.
+
+c>: never
+~ it effectively throws an error whenever it is defined, it's rarely used, especially by itself its primary use is in advanced generics.
+
+d>: undefined & null
+~ they are types that refer to the javascript primitives undefined and null respectively.
+
+
+TYPESCRIPT ARRAYS
+a>: Readonly
+~ it prevents arrays from being changed
+
+b>: Type Inference
+~ TS can infer the type of an array if it has values.
+
+TYPESCRIPT TUPLES
+a>: Typed arrays
+~ a tuple is a typed array with a pre-defined length and types for each index, tuples are great because they allow each element in the array to be a know type of value, to define a tuple specify the type of each element in the array.
+
+b>: Readonly tuple
+~  a good practice is to make your tuple Readonly, tuples only have strongly defined types for the initial values.
+
+c>: Named tuples
+~ allows us to provide context for our values at each index e.g (const graph: [x:number, y: number]= [55.2, 41.3]),  they provide more context for what our index values represent.
+
+d>: Destructuring tuples
+~ since tuples are arrays we can destructure them e.g(const graph: [number,number]=[55.1,41.5]; const [x,y]= graph),
+
+TYPESCRIPT OBJECT TYPES
+a>: Type Inference
+~ if you have a number you can't assign a string to it i will result to an error. TS can infer the types of properties based on their values.
+
+b>: Optional properties
+~ they are properties that don't have to be defined in the object definition.
+
+c>: index signatures
+~ they can be used for object without a defined list of properties.
+
+
+TYPESCRIPT ENUMS
+~ enums is a special class that represents a group of constants(unchangeable variables). they come in two flavors string and numeric.
+
+a>: Numeric Enums - Default
+~ by default enums will initialize the first value to 0 and add 1 to each additional value.
+
+b>: Numeric Enums - Initialized
+~  you can set the value of the first numeric enum and have it auto increment from that.
+
+c>: Numeric Enums - Fully Initialized
+~ you can assign unique number values for each enum value then the value will not increment automatically
+
+d>: string Enums
+~ they are more common since they can be read and intent
+
+TYPESCRIPT TYPE ALIASES AND INTERFACES
+~ TS allows types to be defined separately from the variables then use them. aliases and interfaces allows types to be easily shared between different variables/objects.
+
+a>: Type aliases
+~ it allows defining types with a custom name(an Alias)
+~ they can be primitives like strings or complex types such as objects and arrays. 
+
+b>: interfaces
+~ interfaces are similar to type aliases, expect they only apply to object types.
