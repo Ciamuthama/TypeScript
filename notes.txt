@@ -1,3 +1,5 @@
+typescript ~ is a typed superset of JS that complies to plain JS,it lets you write JS the way you want. 
+
 typescript special types
 
 typescript has special types that may not refer to any special type of data,
@@ -103,3 +105,6 @@ d>: optional parameter
 
 f>: default parameters
 ~ for params with default values, the default value goes after the type annotation
+
+g>: named parameters
+~ it follows the same pattern as normal parameters.

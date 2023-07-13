@@ -150,3 +150,10 @@ console.log(2, 5) //7
 function pow(value:number, exponent:number = 10) {
     return value ** exponent // 10000000000
 }
+
+//named parameter
+function divide({ divided, divisor }: {
+    divided: number, divisor:number
+}) {
+    return divided/divisor
+}
