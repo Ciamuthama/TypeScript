@@ -88,3 +88,5 @@ b>: union type error
 TYPESCRIPT FUNCTIONS
 ~ TS has specific syntax for typing function parameters and return values
 
+a>:Return Type
+~ the type of the value returned by the function can be explicitly defined. note: if no return type is defined, TS  will attempt to infer it through the type of the variables or expression returned. 

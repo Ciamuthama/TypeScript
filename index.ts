@@ -120,3 +120,11 @@ function printStatusCode(code: string| number) {
 }
 printStatusCode(404) //404
 printStatusCode('404') //404
+
+// TS functions
+//Return type
+
+function getTime(): number {
+    // the `:number` here specifies that this function returns a number
+    return new Date().getTime();
+}
