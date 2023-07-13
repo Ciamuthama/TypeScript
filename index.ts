@@ -96,3 +96,19 @@ const rectangle: Rectangle = {
     width: 10
 }
 console.log(rectangle)
+
+//extended interface
+interface square{
+    height: number,
+    width: number
+}
+interface ColorSquare extends square{
+    color: string
+}
+
+const colorSquare: ColorSquare = {
+    height: 20,
+    width: 20,
+    color: "black"
+    
+}

@@ -70,3 +70,6 @@ a>: Type aliases
 
 b>: interfaces
 ~ interfaces are similar to type aliases, expect they only apply to object types.
+
+c>:extending interfaces
+~ it means you are creating a new interface with the same properties as the original, plus something new 
