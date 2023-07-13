@@ -134,3 +134,8 @@ function printAny():void {
     console.log('hello') // hello
     console.log(3) // 3
 }
+
+//Parameter 
+function multiply(a:number, b: number) {
+    return a*b
+}
