@@ -78,3 +78,5 @@ c>:extending interfaces
 TYPESCRIPT UNION TYPES
 ~ union types are used when a value can be more than a single type,such as when a property would be string or number.
 
+a>: union|(OR)
+~ using the | we are saying our parameter is a string or number

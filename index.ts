@@ -112,3 +112,11 @@ const colorSquare: ColorSquare = {
     color: "black"
     
 }
+
+//union | (or)
+
+function printStatusCode(code: string| number) {
+    console.log(`my status is ${code}.`)
+}
+printStatusCode(404) //404
+printStatusCode('404') //404
