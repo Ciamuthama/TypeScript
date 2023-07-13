@@ -99,3 +99,7 @@ c>: parameters
 
 d>: optional parameter
 ~ by default TS will assume all parameters are required but they can be explicitly marked as optional
+
+
+f>: default parameters
+~ for params with default values, the default value goes after the type annotation

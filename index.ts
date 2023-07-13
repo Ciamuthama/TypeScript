@@ -144,4 +144,9 @@ function multiply(a:number, b: number) {
 function add(a:number,b:number,c:number) {
     return a+b+(c||0)
 }
-console.log(2,5) //7
+console.log(2, 5) //7
+
+//default parameters
+function pow(value:number, exponent:number = 10) {
+    return value ** exponent // 10000000000
+}
