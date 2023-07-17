@@ -108,3 +108,6 @@ f>: default parameters
 
 g>: named parameters
 ~ it follows the same pattern as normal parameters.
+
+h>: Rest parameter
+~ can be typed like normal params but the type must be an array as rest params are always arrays.

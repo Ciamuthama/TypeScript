@@ -123,7 +123,6 @@ printStatusCode('404') //404
 
 // TS functions
 //Return type
-
 function getTime(): number {
     // the `:number` here specifies that this function returns a number
     return new Date().getTime();
@@ -156,4 +155,9 @@ function divide({ divided, divisor }: {
     divided: number, divisor:number
 }) {
     return divided/divisor
+}
+
+// rest parameters
+function adding(a: number, b: number, ...rest: number[]) {
+    return a +b + rest.reduce((p,c)=> p+c, 0)
 }
