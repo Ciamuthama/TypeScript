@@ -121,3 +121,6 @@ TYPESCRIPT CASTING
 
 a>: Casting with (as)
 ~ it will directly change the type of the given variable.
+
+b>: casting with (<>)
+~ it works the same as (as)
