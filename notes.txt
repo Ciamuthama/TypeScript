@@ -111,3 +111,6 @@ g>: named parameters
 
 h>: Rest parameter
 ~ can be typed like normal params but the type must be an array as rest params are always arrays.
+
+i>: Type Alias
+~ function types can be specified separately from functions with type aliases, these type are similar to arrow function.

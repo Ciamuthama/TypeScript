@@ -161,3 +161,8 @@ function divide({ divided, divisor }: {
 function adding(a: number, b: number, ...rest: number[]) {
     return a +b + rest.reduce((p,c)=> p+c, 0)
 }
+
+//type alias
+type Negate = (value: number) => number
+
+const negateFunction:Negate = (value)=> value *-1
