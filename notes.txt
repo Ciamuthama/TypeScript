@@ -127,3 +127,7 @@ b>: casting with (<>)
 
 c>: Force casting
 ~ to override type errors that typescript may throw when casting first cast to unknown, then to the target type.
+
+
+TYPESCRIPT CLASSES
+~ TS adds types and visibility modifiers to Js classes.
