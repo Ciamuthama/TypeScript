@@ -166,3 +166,9 @@ function adding(a: number, b: number, ...rest: number[]) {
 type Negate = (value: number) => number
 
 const negateFunction:Negate = (value)=> value *-1
+
+
+//CASTING
+// as
+let x: unknown = 'hello'
+console.log((x as string).length)

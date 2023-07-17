@@ -114,3 +114,10 @@ h>: Rest parameter
 
 i>: Type Alias
 ~ function types can be specified separately from functions with type aliases, these type are similar to arrow function.
+
+
+TYPESCRIPT CASTING
+~  it is the process of overriding a type
+
+a>: Casting with (as)
+~ it will directly change the type of the given variable.
