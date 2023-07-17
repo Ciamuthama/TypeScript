@@ -123,4 +123,7 @@ a>: Casting with (as)
 ~ it will directly change the type of the given variable.
 
 b>: casting with (<>)
-~ it works the same as (as)
+~ it works the same as (as). this casting will not work on TSX file.
+
+c>: Force casting
+~ to override type errors that typescript may throw when casting first cast to unknown, then to the target type.

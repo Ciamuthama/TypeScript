@@ -176,3 +176,7 @@ console.log((x as string).length)
 //casting with <>
 let y: unknown = 'hello'
 console.log((<string>x).length)
+
+// force casting
+let z = 'hello'
+console.log(((x as unknown) as string).length);
