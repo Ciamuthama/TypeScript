@@ -158,3 +158,6 @@ generics allows creating 'type variables' which can be used tp create classes, f
 
 a:> functions
 ~ generics with functions help make more generalized methods which more accurately represent the types used and returned.
+
+b:> Classes
+~ generics can be used to create generalized classes like Map
