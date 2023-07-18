@@ -195,8 +195,9 @@ console.log(person.name) // John
 //members: visibility
 class Persons {
   
-    public constructor(private name: string) {
+    public constructor(private readonly name: string) {
         // TS provides a way of defining a class member in the constructor, by adding the visibility modifiers to the parameter
+        // the readonly keyword prevents the class member from being changed
         this.name = name
     }
 
