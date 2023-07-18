@@ -207,3 +207,20 @@ class Persons {
 }
 const persons = new Persons('John')
 console.log(persons.getName()) // person.name cannot be accessed outside the class since its private
+
+//inheritance in classes
+// implements
+interface Shape{
+    getArea:() => number
+}
+
+class Rectangles implements Shape {
+    public constructor(protected readonly width: number, protected readonly height: number) { }
+    
+       public getArea():number {
+        return this.width * this.height
+    }
+}
+
+const myRect = new Rectangles(10, 20)
+console.log(myRect.getArea()) // 200

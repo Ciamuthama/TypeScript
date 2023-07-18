@@ -143,4 +143,5 @@ b>: Members; visibility
         ~ private, only allows access to the class member from within the class
         ~ protected, allows access to the class member from itself and any classes that inherit it.
 
-c:> members;
+c:> inheritance; implements
+~ interfaces can be used to define the type a class must follow through the implements keyword 
