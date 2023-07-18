@@ -142,3 +142,5 @@ b>: Members; visibility
         ~ public, allows access to the class member from anywhere
         ~ private, only allows access to the class member from within the class
         ~ protected, allows access to the class member from itself and any classes that inherit it.
+
+c:> members;
