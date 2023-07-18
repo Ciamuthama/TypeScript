@@ -180,3 +180,14 @@ console.log((<string>x).length)
 // force casting
 let z = 'hello'
 console.log(((x as unknown) as string).length);
+
+
+//Classes in TS
+// Members: Types
+class Person {
+    name: string;
+}
+const person = new Person()
+person.name = 'John';
+console.log(person) // Person{name:'John'}
+console.log(person.name) // John

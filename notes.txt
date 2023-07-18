@@ -131,3 +131,6 @@ c>: Force casting
 
 TYPESCRIPT CLASSES
 ~ TS adds types and visibility modifiers to Js classes
+
+a>: Members; Types
+~ the members of a class(properties & methods) are typed using type annotation,similar to variables 
