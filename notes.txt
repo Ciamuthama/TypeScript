@@ -148,3 +148,6 @@ c:> inheritance; implements
 
 d:> inheritance; extends
 ~  classes can extend each other through the extends keyword. a class can only extends one other class.
+
+e:> Abstract Classes
+~ classes can be written in a way that allows them to be used as a base class for other classes without having to implement all the members. this is done using the abstract keyword.members that are left unimplemented also use the abstract keywords.

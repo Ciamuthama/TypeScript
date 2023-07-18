@@ -246,3 +246,24 @@ class Rectangle extends Squares{
 }
 const mySq = new Squares(20,0)
 console.log(mySq.drawShape()) //400
+
+//Abstract Classes
+abstract class Polygon{
+    public abstract getArea(): number
+
+    public toString(): string{
+        return `Polygon[{area=$this.getArea()}]`
+    }
+}
+class Triangle extends Polygon {
+    public getArea(): number {
+        throw new Error("Method not implemented.");
+    } 
+    public constructor(protected readonly width: number, protected readonly height: number) {
+        super()
+    }
+}
+
+public getArea(): number{
+    return this.width * this.height
+}
