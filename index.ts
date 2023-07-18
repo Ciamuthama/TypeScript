@@ -191,3 +191,17 @@ const person = new Person()
 person.name = 'John';
 console.log(person) // Person{name:'John'}
 console.log(person.name) // John
+
+//members: visibility
+class Persons {
+    private name : string
+    public constructor(name: string) {
+        this.name = name
+    }
+
+    public getName(): string{
+        return this.name
+    }
+}
+const persons = new Persons('John')
+console.log(persons.getName()) // person.name cannot be accessed outside the class since its private

@@ -134,3 +134,11 @@ TYPESCRIPT CLASSES
 
 a>: Members; Types
 ~ the members of a class(properties & methods) are typed using type annotation,similar to variables 
+
+b>: Members; visibility
+~ class members also be given special modifiers which affects visibility.
+
+>>>> main visibility modifiers.
+        ~ public, allows access to the class member from anywhere
+        ~ private, only allows access to the class member from within the class
+        ~ protected, allows access to the class member from itself and any classes that inherit it.
