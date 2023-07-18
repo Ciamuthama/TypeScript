@@ -86,16 +86,17 @@ console.log(c1)
 console.log(c)
 
 //interface
-interface Rectangle{
+interface Rectangular{
     height: number,
     width: number
 }
 
-const rectangle: Rectangle = {
+const rectangular: Rectangular = {
     height: 20,
-    width: 10
+    width: 10,
+  
 }
-console.log(rectangle)
+console.log(rectangular)
 
 //extended interface
 interface square{
@@ -224,3 +225,24 @@ class Rectangles implements Shape {
 
 const myRect = new Rectangles(10, 20)
 console.log(myRect.getArea()) // 200
+
+//extends
+interface Shapes{
+    drawShape : ()=> number
+} 
+
+class Squares implements Shapes{
+    public constructor(protected readonly width: number, protected readonly height: number) { }
+
+    public drawShape(): number{
+        return this.width * this.height
+    }
+}
+
+class Rectangle extends Squares{
+    public constructor(width: number) {
+        super(width, width)
+    }
+}
+const mySq = new Squares(20,0)
+console.log(mySq.drawShape()) //400

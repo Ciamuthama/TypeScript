@@ -144,4 +144,7 @@ b>: Members; visibility
         ~ protected, allows access to the class member from itself and any classes that inherit it.
 
 c:> inheritance; implements
-~ interfaces can be used to define the type a class must follow through the implements keyword 
+~ interfaces can be used to define the type a class must follow through the implements keyword
+
+d:> inheritance; extends
+~  classes can extend each other through the extends keyword. a class can only extends one other class.
