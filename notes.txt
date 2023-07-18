@@ -151,3 +151,10 @@ d:> inheritance; extends
 
 e:> Abstract Classes
 ~ classes can be written in a way that allows them to be used as a base class for other classes without having to implement all the members. this is done using the abstract keyword.members that are left unimplemented also use the abstract keywords.
+
+
+TYPESCRIPT BASIC GENERICS
+generics allows creating 'type variables' which can be used tp create classes, functions & type aliases that don't need to explicitly define the type that they use. they make it easy to write reusable code.
+
+a:> functions
+~ generics with functions help make more generalized methods which more accurately represent the types used and returned.
