@@ -256,14 +256,11 @@ abstract class Polygon{
     }
 }
 class Triangle extends Polygon {
-    public getArea(): number {
-        throw new Error("Method not implemented.");
-    } 
+       
     public constructor(protected readonly width: number, protected readonly height: number) {
         super()
     }
-}
-
-public getArea(): number{
-    return this.width * this.height
+    public getArea(): number{
+        return this.width * this.height
+    }
 }
