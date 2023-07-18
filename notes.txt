@@ -130,4 +130,4 @@ c>: Force casting
 
 
 TYPESCRIPT CLASSES
-~ TS adds types and visibility modifiers to Js classes.
+~ TS adds types and visibility modifiers to Js classes
