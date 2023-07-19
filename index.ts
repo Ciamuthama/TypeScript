@@ -298,4 +298,26 @@ console.log(value.toString())
 //type aliases
 type Wrapped<T> = { value: T }
 const wrappedString: Wrapped<string> = { value: 'Hello' };
-console.log(Wrapped)
+
+
+//Default value
+class NamedValue<T = string>{
+    private _value : T | undefined
+    constructor (private name : string){}
+
+    public setValue(value: T) {
+        this._value = value
+    }
+
+    public getValue(): T |undefined{
+        return this._value
+    }
+
+    public toString(): string{
+        return `${this.name}: ${this._value}`
+    }
+}
+
+let values = new NamedValue('myNumber')
+values.setValue('myValue')
+console.log(value.toString()); // myNumber: myValue

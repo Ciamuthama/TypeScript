@@ -164,3 +164,6 @@ b:> Classes
 
 c:> Type aliases
 ~ generics in type aliases allow creating types that are more reusable.
+
+d:> Default value
+~ generics can be assigned default values which apply if no other value is specified of inferred.
