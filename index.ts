@@ -321,3 +321,10 @@ class NamedValue<T = string>{
 let values = new NamedValue('myNumber')
 values.setValue('myValue')
 console.log(value.toString()); // myNumber: myValue
+
+//extends
+function createLoggedPair<S extends string | number, T extends string | number>(v1: S, v2: T): [S, T]{
+    console.log(`creating pair: v1='${v1}', v2='${v2}'`)
+    return [v1,v2];
+}
+createLoggedPair("hello", 4);

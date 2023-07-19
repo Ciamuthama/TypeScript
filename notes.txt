@@ -167,3 +167,6 @@ c:> Type aliases
 
 d:> Default value
 ~ generics can be assigned default values which apply if no other value is specified of inferred.
+
+e:> extends
+~ constraints can be added to generics to limit whats allowed. the constraints make it possible to rely on a more specific type when using generics type.
