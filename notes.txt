@@ -160,4 +160,7 @@ a:> functions
 ~ generics with functions help make more generalized methods which more accurately represent the types used and returned.
 
 b:> Classes
-~ generics can be used to create generalized classes like Map
+~ generics can be used to create generalized classes like Map.TS can also infer the type of the generic parameter if its used in a constructor parameter.
+
+c:> Type aliases
+~ generics in type aliases allow creating types that are more reusable.

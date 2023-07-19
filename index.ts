@@ -294,3 +294,8 @@ class Pair<U> {
 let value = new Pair<number>('myNumber');
 value.setValue(10)
 console.log(value.toString())
+
+//type aliases
+type Wrapped<T> = { value: T }
+const wrappedString: Wrapped<string> = { value: 'Hello' };
+console.log(Wrapped)
