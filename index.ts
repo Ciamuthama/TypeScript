@@ -285,6 +285,10 @@ class Pair<U> {
     public getValue(): U | undefined{
         return this._value
     }
+
+    public toString(): string{
+        return `${this.name}: ${this._value}`
+    }
 }
 
 let value = new Pair<number>('myNumber');
