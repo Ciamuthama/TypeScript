@@ -351,3 +351,9 @@ let myBus: Required<Bus> = {
     model: 'EBZ',
     mileage: 1000
 }
+
+//Record
+const namesAgeMap: Record<string, number> = {
+    'Alice': 21,
+    "Bob": 25
+}

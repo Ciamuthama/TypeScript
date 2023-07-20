@@ -180,4 +180,6 @@ a:> Partial
 
 b:> Required
 ~ it changes all the properties in an object to be required.
- 
+
+c:> Record
+~ is a shortcut to defining an object type with a specific key type and value type.
