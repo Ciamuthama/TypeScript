@@ -328,3 +328,13 @@ function createLoggedPair<S extends string | number, T extends string | number>(
     return [v1,v2];
 }
 createLoggedPair("hello", 4);
+
+//UTILITY TYPES
+//partial
+interface Point{
+    x: number;
+    y: number;
+}
+
+let pointPart: Partial<Point> = {}
+pointPart.x =10

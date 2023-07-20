@@ -170,3 +170,10 @@ d:> Default value
 
 e:> extends
 ~ constraints can be added to generics to limit whats allowed. the constraints make it possible to rely on a more specific type when using generics type.
+
+
+TYPESCRIPT UNITY TYPES
+they help some common type manipulation
+
+a:> Partial
+~ changes all the properties in an object optional.
