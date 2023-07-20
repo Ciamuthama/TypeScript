@@ -177,3 +177,7 @@ they help some common type manipulation
 
 a:> Partial
 ~ changes all the properties in an object optional.
+
+b:> Required
+~ it changes all the properties in an object to be required.
+ 

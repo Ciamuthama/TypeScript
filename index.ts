@@ -338,3 +338,16 @@ interface Point{
 
 let pointPart: Partial<Point> = {}
 pointPart.x =10
+
+// Required
+interface Bus{
+    make: string
+    model: string
+    mileage?: number
+}
+
+let myBus: Required<Bus> = {
+    make: 'Scania',
+    model: 'EBZ',
+    mileage: 1000
+}
