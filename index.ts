@@ -382,3 +382,9 @@ let james: Pick<Person, 'name'>={
     name: 'James'
     // `Pick` has only kept name, so age and location were removed from the type and they can't be defined here
 }
+
+//Exclude
+type MyType = string|number|boolean
+const type: Exclude<MyType, string> = true; 
+//a string cannot be used here since Exclude removed it from the type. 
+console.log(typeof(type)) //boolean

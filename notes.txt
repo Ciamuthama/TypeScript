@@ -189,3 +189,6 @@ d:> Omit
 
 e:> Pick
 ~ removes all but the specified keys from an object type.
+
+f:> Exclude
+~ removes types from a union.
