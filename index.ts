@@ -387,4 +387,15 @@ let james: Pick<Person, 'name'>={
 type MyType = string|number|boolean
 const type: Exclude<MyType, string> = true; 
 //a string cannot be used here since Exclude removed it from the type. 
-console.log(typeof(type)) //boolean
+console.log(typeof (type)) //boolean
+
+//ReturnType
+type PointGenerator = () => {
+    x: number
+    y:number
+}
+
+const point: ReturnType<PointGenerator> = {
+    x: 10,
+    y:20
+}

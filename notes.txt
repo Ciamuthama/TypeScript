@@ -192,3 +192,6 @@ e:> Pick
 
 f:> Exclude
 ~ removes types from a union.
+
+g:> ReturnType
+~ extracts the return type of a function type.
