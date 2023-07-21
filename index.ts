@@ -354,6 +354,18 @@ let myBus: Required<Bus> = {
 
 //Record
 const namesAgeMap: Record<string, number> = {
+    //Record<string, number> is equivalent to { [key: string]: number }
     'Alice': 21,
     "Bob": 25
+}
+
+//omit
+interface Person{
+    name: string
+    age: number
+    location?: string
+}
+
+const bob: Omit<Person, 'age' | 'location'> = {
+    name:'Bob'
 }

@@ -183,3 +183,6 @@ b:> Required
 
 c:> Record
 ~ is a shortcut to defining an object type with a specific key type and value type.
+
+d:> Omit
+~ removes keys from an object type.
