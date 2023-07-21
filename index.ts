@@ -366,6 +366,19 @@ interface Person{
     location?: string
 }
 
-const bob: Omit<Person, 'age' | 'location'> = {
-    name:'Bob'
+let bob: Omit<Person, 'age' | 'location'> = {
+    name: 'Bob'
+     // `Omit` has removed age and location from the type and they can't be defined here
+}
+
+//Pick
+interface Person {
+    name: string
+    age: number
+    location?: string
+}
+
+let james: Pick<Person, 'name'>={
+    name: 'James'
+    // `Pick` has only kept name, so age and location were removed from the type and they can't be defined here
 }

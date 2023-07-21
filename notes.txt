@@ -186,3 +186,6 @@ c:> Record
 
 d:> Omit
 ~ removes keys from an object type.
+
+e:> Pick
+~ removes all but the specified keys from an object type.
