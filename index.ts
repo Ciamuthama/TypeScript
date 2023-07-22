@@ -416,3 +416,20 @@ const people: Readonly = {
     name: 'John',
     age:35
 }
+
+
+//Keyof
+//explicit keys
+interface Someone{
+    name: string
+    age: number
+}
+function printSomeoneProperty(someone: Someone, property: keyof Someone) {
+    console.log(`Printing person property ${property}: "${someone[property]}"`);
+  }
+  
+let someone = {
+    name: 'James',
+    age:46    
+}
+printSomeoneProperty(someone, 'name');// will print someone name 

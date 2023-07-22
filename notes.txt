@@ -205,3 +205,6 @@ i:> Readonly
 
 //TYPESCRIPT keyof
 ~ keyof is a keyword in TS which is used to extract the key type from an object type.
+
+a:> keyof with explicit keys
+~ when used on an object type with explicit keys, keyof creates a union type with those keys.
