@@ -198,3 +198,6 @@ g:> ReturnType
 
 h:> Parameter
 ~ extracts the parameter type of a function type as an array.
+
+i:> Readonly
+~ its used to create a new type where all properties are readonly.

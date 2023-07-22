@@ -406,3 +406,13 @@ const pointer :Parameters < addNumbers > [0]={
     x: 10,
     y:20
 }
+
+//readonly
+interface People{
+    name: string
+    age: number
+}
+const people: Readonly = { 
+    name: 'John',
+    age:35
+}
