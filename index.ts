@@ -399,3 +399,10 @@ const point: ReturnType<PointGenerator> = {
     x: 10,
     y:20
 }
+
+//Parameters
+type addNumbers = (p: { x: number; y: number }) => void
+const pointer :Parameters < addNumbers > [0]={
+    x: 10,
+    y:20
+}

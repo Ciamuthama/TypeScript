@@ -195,3 +195,6 @@ f:> Exclude
 
 g:> ReturnType
 ~ extracts the return type of a function type.
+
+h:> Parameter
+~ extracts the parameter type of a function type as an array.
