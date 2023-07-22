@@ -432,4 +432,11 @@ let someone = {
     name: 'James',
     age:46    
 }
-printSomeoneProperty(someone, 'name');// will print someone name 
+printSomeoneProperty(someone, 'name');// will print someone name
+
+//index signatures
+type StringMap = { [key: string]: unknown }
+//`keyof StringMap` resolves to `string` here
+function createStringPair(property: keyof StringMap, value: string): StringMap{
+    return { [property]: value }
+}

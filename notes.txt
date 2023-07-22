@@ -208,3 +208,6 @@ i:> Readonly
 
 a:> keyof with explicit keys
 ~ when used on an object type with explicit keys, keyof creates a union type with those keys.
+
+b:> keyof with index signatures
+~ keyof can also be used with index signatures to extract the index type.
