@@ -201,3 +201,7 @@ h:> Parameter
 
 i:> Readonly
 ~ its used to create a new type where all properties are readonly.
+
+
+//TYPESCRIPT keyof
+~ keyof is a keyword in TS which is used to extract the key type from an object type.
