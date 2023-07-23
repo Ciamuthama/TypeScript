@@ -485,4 +485,8 @@ function getVal(): string| undefined {
     return 'hello'
 }
 const str = getVal()
-console.log('value length: '+ value!.length)
+console.log('value length: ' + value!.length)
+
+//array bounds handling
+let arr: number[] = [1, 2, 3, 4]
+let v = arr[0] // with `noUncheckedIndexedAccess` this has the type `number | undefined`

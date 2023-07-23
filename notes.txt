@@ -227,3 +227,6 @@ c:> nullish coalescence
 
 d:> Null Assertion
 ~ TypeScript's inference system isn't perfect, there are times when it makes sense to ignore a value's possibility of being null or undefined. An easy way to do this is to use casting, but TypeScript also provides the ! operator as a convenient shortcut.
+
+e:> Array bounds handling
+~ Even with strictNullChecks enabled, by default TypeScript will assume array access will never return undefined (unless undefined is part of the array type). The config noUncheckedIndexedAccess can be used to change this behavior.
