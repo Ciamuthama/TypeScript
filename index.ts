@@ -479,3 +479,10 @@ function printMileage(mileage:number | null| undefined) {
 
 printMileage(null)// Prints 'Mileage: Not Available'
 printMileage(0)// Prints 'Mileage: 0'
+
+//null assertion
+function getVal(): string| undefined {
+    return 'hello'
+}
+const str = getVal()
+console.log('value length: '+ value!.length)

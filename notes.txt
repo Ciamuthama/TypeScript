@@ -224,3 +224,6 @@ b:> optional chaining
 
 c:> nullish coalescence
 ~ it allows writing expression that have a fallback specifically when dealing with null or undefined. this is useful when falsy values can occur in the expression but are still valid. it can be used with the (??) operator in an expression similar to using the && operator.
+
+d:> Null Assertion
+~ TypeScript's inference system isn't perfect, there are times when it makes sense to ignore a value's possibility of being null or undefined. An easy way to do this is to use casting, but TypeScript also provides the ! operator as a convenient shortcut.
