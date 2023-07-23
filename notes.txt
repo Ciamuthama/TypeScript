@@ -218,3 +218,6 @@ By default null and undefined handling is disabled, and can be enabled by settin
 
 a:> Types
 ~ null and undefined are primitive types and can be used like other types, such as string.
+
+b:> optional chaining
+~ it allows accessing properties on an object, that may or may not exist, with a compact syntax. it can be used with the (?) operator when accessing properties.

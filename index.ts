@@ -449,3 +449,25 @@ val = "hello"
 console.log(typeof val)// string
 val = undefined
 console.log(typeof val)// undefined
+
+//optional chaining
+interface House{
+    sqft: number
+    yard?: {
+        sqft: number
+    }
+}
+
+function printYardSize(house:House) {
+    const yardSize = house.yard?.sqft
+    if (yardSize === undefined) {
+        console.log('No yard')
+    } else {
+        console.log(`Yard is ${yardSize} sqft`) 
+    }
+}
+
+let home:House={
+    sqft: 1000
+}
+printYardSize(home)// Prints 'No yard'
