@@ -440,3 +440,12 @@ type StringMap = { [key: string]: unknown }
 function createStringPair(property: keyof StringMap, value: string): StringMap{
     return { [property]: value }
 }
+
+//NULL and UNDEFINED
+//Type
+let val: string | undefined | null = null
+console.log(typeof val)//object
+val = "hello"
+console.log(typeof val)// string
+val = undefined
+console.log(typeof val)// undefined

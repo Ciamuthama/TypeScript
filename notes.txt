@@ -211,3 +211,10 @@ a:> keyof with explicit keys
 
 b:> keyof with index signatures
 ~ keyof can also be used with index signatures to extract the index type.
+
+
+//TYPESCRIPT NULL & UNDEFINED
+By default null and undefined handling is disabled, and can be enabled by setting strictNullChecks to true.
+
+a:> Types
+~ null and undefined are primitive types and can be used like other types, such as string.
