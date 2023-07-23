@@ -474,7 +474,7 @@ printYardSize(home)// Prints 'No yard'
 
 //nullish coalescence
 function printMileage(mileage:number | null| undefined) {
-    console.log(`Milage: ${milage ??'Not Available'}`)
+    console.log(`Milage: ${mileage ??'Not Available'}`)
 }
 
 printMileage(null)// Prints 'Mileage: Not Available'
