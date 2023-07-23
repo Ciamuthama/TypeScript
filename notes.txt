@@ -221,3 +221,6 @@ a:> Types
 
 b:> optional chaining
 ~ it allows accessing properties on an object, that may or may not exist, with a compact syntax. it can be used with the (?) operator when accessing properties.
+
+c:> nullish coalescence
+~ it allows writing expression that have a fallback specifically when dealing with null or undefined. this is useful when falsy values can occur in the expression but are still valid. it can be used with the (??) operator in an expression similar to using the && operator.
